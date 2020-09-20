@@ -17,7 +17,7 @@ export default {
   mounted() {
     let url = 'https://www.easy-mock.com/mock/5f670f277304034f4b754175/mall/a/haha#!method=get';
    axios.get(url).then(data => {
-     console.log(data)
+     console.log(data,'dfja')
    })
   }
 }
