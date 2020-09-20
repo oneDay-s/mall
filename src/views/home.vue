@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div>
     <nav-header></nav-header>
     <router-view></router-view>
     <nav-footer></nav-footer>
@@ -10,7 +10,7 @@
 // @ is an alias to /src
 import  axios  from  'axios'
 export default {
-  name: 'Home',
+  name:'nav-home',
   components: {
 
   },
